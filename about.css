@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    /*for smooth scrolling*/
+}
+
+.artist-image {
+    float: right;
+    height: 650px;
+    width: 450px;
+
+}
+
+section {
+    margin: 60px 110px;
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 2px;
+    line-height: 1,7;
+}
+
+section h2 {
+    color: rgb(51, 49, 49);
+}
+
+
+section h4 {
+    color: rgb(89, 84, 84);
+    font-size: 23px;
+}
+
+section p {
+    font-size: 20px;
+    color: rgb(104, 100, 100);
+
+
+}
