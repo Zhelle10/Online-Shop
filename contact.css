@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    /*for smooth scrolling*/
+}
+
+.fill-up-form {
+    display: inline-block;
+    border: 1px solid black;
+    border-color: rgb(81, 80, 80);
+    border-radius: 20px;
+    margin: 50px;
+    margin-left: 500px;
+    padding: 75px;
+}
+
+
+.fill-up-form h1 {
+    color: rgb(121, 116, 116);
+}
+
+.fill-up-form #email-box {
+    width: 370px;
+}
+
+.fill-up-form #message-box {
+    width: 370px;
+    height: 200px;
+}
+
+.fill-up-form p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 17px;
+}
+
+.fill-up-form button {
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    font-family:  "Roboto Condensed", sans-serif;
+    font-size: 17px;
+}

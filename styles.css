@@ -11,6 +11,7 @@ html {
 header p {
     background: #E76F51;
     padding: 20px;
+    margin-top: 0;
     font-size: 15px;
     color: white;
     font-family: "Roboto Condensed", sans-serif;
@@ -113,15 +114,35 @@ input {
 .top-navbar div li ul {
     position: absolute;
     display: none;
-
-    background-color: #f9f9f9;
-
 }
 
 .dropdown-artpainting ul li a {
     display: block;
 
 }
+
+.shipping-and-return-container {
+    margin-right: 140px;
+    font-family:"Roboto Condensed", sans-serif;
+    color: rgb(91, 89, 89);
+}
+
+.shipping-and-return-container .shipping-icons  {
+    position: relative;
+    top: 6px;
+    left: 1045px;
+    display: inline;
+
+    
+    
+    
+}
+
+.shipping-and-return-container .shipping-icons i span {
+    
+}
+
+
 
 
 
@@ -251,3 +272,4 @@ footer .socialmedia-icons  {
 footer p {
     margin-left: 600px;
 }
+
